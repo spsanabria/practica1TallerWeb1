@@ -1,0 +1,22 @@
+package practica1TallerWeb1;
+
+public class TrianguloIsosceles {
+	
+	Float lado;
+	Float base;
+	
+	public TrianguloIsosceles(Float valorLado, Float valorBase){
+		this.lado= valorLado;
+		this.base= valorBase;
+	}
+
+	public Float obtenerAltura(){
+		return (float) (Math.sqrt(Math.pow(this.lado,2)-(Math.pow((this.base/2),2))));
+	}
+	public Float obtenerArea(){
+		return((this.obtenerAltura()*this.base)/2);
+	}
+	public Float obtenerPerimetro(){
+		return ((this.lado*2)+ this.base);
+	}
+}

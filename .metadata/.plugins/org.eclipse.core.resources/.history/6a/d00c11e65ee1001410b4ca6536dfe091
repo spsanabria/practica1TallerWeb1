@@ -1,0 +1,14 @@
+package testCase;
+
+import practica1TallerWeb1.TrianguloIsosceles;
+
+public class TrianguloIsoscelesTest {
+	
+	public Void testObtenerArea(){
+		TrianguloIsosceles triangulo1= new TrianguloIsosceles(10.0,5.0);
+		Double resultado= triangulo1.obtenerArea();
+		Double resultadoEsperado= 24.2;
+		assertEquals(resultadoEsperado,resultado,0.01);
+	}
+
+}

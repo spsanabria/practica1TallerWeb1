@@ -1,0 +1,17 @@
+package practica1TallerWeb1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TrianguloIsoscelesTest {
+
+	@Test
+	public void testObtenerArea() {
+		TrianguloIsosceles triangulo1= new TrianguloIsosceles(10.0,5.0);
+		Double resultadoEsperado= 24.2;
+		Double resultado= triangulo1.obtenerArea();
+		assertEquals(resultadoEsperado,resultado,0.01);
+	}
+
+}

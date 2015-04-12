@@ -1,0 +1,16 @@
+package practica1TallerWeb1;
+
+public class Cuadrado {
+
+	Float lado;
+	
+	public Cuadrado(Float valorLado){
+		this.lado= valorLado;
+	}
+	public Float obtenerArea(){
+		return (float) (Math.pow(this.lado, 2));
+	}
+	public Float obtenerPerimetro(){
+		return(4*this.lado);
+	}
+}
