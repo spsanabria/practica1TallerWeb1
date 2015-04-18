@@ -5,5 +5,7 @@
 .metadata/*
 .recommenders/*
 RemoteSystemsTempFiles/*
+.classpath
+.project
 
 
