@@ -7,6 +7,6 @@
 RemoteSystemsTempFiles/*
 .classpath
 .project
-calculadora/.settings/org.eclipse.jdt.core.prefs
+calculadora/.settings/*
 
 
